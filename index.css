@@ -1,0 +1,285 @@
+/* the style of the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.freakingMenu {
+    padding-top: 30px;
+}
+
+/* this can be applied to any part that needs a black color */
+
+.theDarkColor {
+    color: black;
+}
+
+/* this can be applied to any part that needs a little padding of 10px */
+
+.rightSidePadding {
+    padding: 10px;
+}
+
+/* this should be hover of the links tag */
+
+a:hover {
+    background-color: rgb(238, 70, 70);
+}
+
+a img {
+    width: 100px;
+}
+
+/* this should be a float left style  */
+
+.floatTheItemToLeft {
+    float: left;
+}
+
+/* this should be a float right style  */
+
+.floatTheItemToRight {
+    float: right;
+    padding: 20px;
+}
+
+
+/* this should be for padding right style  */
+
+.paddingRightItems {
+    padding-right: 10px;
+}
+
+/* this should be for padding left style  */
+
+.paddingLeftItems {
+    padding-left: 10px;
+}
+
+/* this should be for padding top style  */
+
+.paddingTopItems {
+    padding-top: 10px;
+}
+
+.middleIcons :hover {
+    background-color: whitesmoke;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+/* this is the pattern i want the grid to be */
+
+.wholeOfGrid{
+    height: fit-content;
+    display: grid;
+    grid-template-areas: 
+    'firstContainer firstContainer firstContainer firstContainer'
+    'firstContainer firstContainer middleIcons firstContainer'
+    'footer footer footer footer'
+    ;
+}
+
+.theSideMargins {
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+
+/* the first class on my html which is firstContainer */
+.firstContainer {
+    background-image: url("images/theBackgroundImage.jpg");
+    margin: 10px 50px 10px 100px;
+    background-color: red;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+
+    /* class= "firstContainer" should be called upon; we need it to have some classes of grid in it as well*/
+
+    display: grid;
+    grid-template-areas: 
+    'container container container container'
+    'mainSection mainSection mainSection container'
+    'info info info info'
+    ;
+}
+
+/* the nav style */
+.container {
+    color: white;
+}
+
+.mainSection {
+    margin-bottom: 5rem;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+}
+
+
+
+.nav-bar {
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+
+.nav-bar li {
+    padding-left: 50px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.signUp {
+    float: right;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.3rem;
+    margin-top: -2.5rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* first section  */
+
+.headings {
+    font-size: 70px;
+}
+
+
+/* span classes */
+.firstSpan {
+    color: green;
+}
+
+/* there should be a background-image on this first section.
+work on that and return back to the html and css to finish it, okay? */
+
+
+
+/* the icon style in the middle and its background */
+
+.middleIcons {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 100px 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: -3rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.theIcons {
+    color: red;
+    margin: 0 auto;
+    list-style-type: none;
+    float: inline-start;
+    padding: 5px 30px 5px 15px;
+}
+
+
+/* The last section before the footer */
+
+.info{
+    display: grid;
+    grid-template-areas: 
+    'theInfoImage theInfoImage writeUpOnTrends writeUpOnTrends';
+    height: 500px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.info img{
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    max-width: 400px;
+
+}
+
+.writeUpOnTrends {
+    padding-left: 5px;
+}
+
+.theSmall {
+    height: 60px;
+    width: 10px;
+    background-color: red;
+}
+
+.theWriteMessage{
+    line-height: 25px;
+}
+
+button {
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+
+/* this is the style that involves the footer 
+except others that might carry another kind of style entirely */
+
+footer {
+    background-color:black ;
+    color: white;
+    height: fit-content;
+    display: grid;
+    grid-template-areas: 
+    'left-side-of-footer right-side-of-footer'
+}
+
+.left-side-of-footer {
+    float: left;
+}
+
+.right-side-of-footer {
+    float: right;
+    padding-top: 20px;
+    padding-left: 400px;
+}
+
+.mainFutTopic {
+    padding-bottom: 20px;
+}
+
+.emailStyle {
+    padding-bottom: 20px;
+}
+
+.socialIcons {
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.termsStyle {
+    padding-bottom: 20px;
+}
+
+
+.susCss {
+    margin-left: 20px;
+}
+
+.spanRed {
+    color: red;
+}
+
+.PrivacyTerm {
+    padding-left: 50px;
+}
